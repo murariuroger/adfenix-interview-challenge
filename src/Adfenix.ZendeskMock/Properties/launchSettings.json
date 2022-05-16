@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:4834",
+      "sslPort": 44305
+    }
+  },
+  "profiles": {
+    "Adfenix.ZendeskMock": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "hotReloadEnabled": false,
+      "applicationUrl": "",
+      "dotnetRunMessages": true
+    }
+  }
+}

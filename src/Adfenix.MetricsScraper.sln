@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adfenix.MetricsScraper", "Adfenix.MetricsScraper\Adfenix.MetricsScraper.csproj", "{59778914-6A5D-4F70-AE6A-74DE2095A3F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adfenix.ZendeskMock", "Adfenix.ZendeskMock\Adfenix.ZendeskMock.csproj", "{5353CA15-5263-4FD1-B9A0-42DFF2D3F331}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adfenix.VisualiserMock", "Adfenix.VisualiserMock\Adfenix.VisualiserMock.csproj", "{F279D49A-CFFD-4314-AAE0-487FD1F8D34E}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "Docker\docker-compose.dcproj", "{77E4D628-D90E-44F6-8932-88D5273A4390}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{27ED1E48-5613-48B7-8C21-9545BE140943}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adfenix.MetricsScraper.UnitTests", "..\test\Adfenix.MetricsScraper.UnitTests\Adfenix.MetricsScraper.UnitTests.csproj", "{A52CF227-6862-4978-B28C-0998A7F0F309}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adfenix.CampaignServersMock", "Adfenix.CampaignServersMock\Adfenix.CampaignServersMock.csproj", "{040264DC-3A7D-4203-985B-E66339E309F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59778914-6A5D-4F70-AE6A-74DE2095A3F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59778914-6A5D-4F70-AE6A-74DE2095A3F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59778914-6A5D-4F70-AE6A-74DE2095A3F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59778914-6A5D-4F70-AE6A-74DE2095A3F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5353CA15-5263-4FD1-B9A0-42DFF2D3F331}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5353CA15-5263-4FD1-B9A0-42DFF2D3F331}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5353CA15-5263-4FD1-B9A0-42DFF2D3F331}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5353CA15-5263-4FD1-B9A0-42DFF2D3F331}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F279D49A-CFFD-4314-AAE0-487FD1F8D34E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F279D49A-CFFD-4314-AAE0-487FD1F8D34E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F279D49A-CFFD-4314-AAE0-487FD1F8D34E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F279D49A-CFFD-4314-AAE0-487FD1F8D34E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77E4D628-D90E-44F6-8932-88D5273A4390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77E4D628-D90E-44F6-8932-88D5273A4390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77E4D628-D90E-44F6-8932-88D5273A4390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77E4D628-D90E-44F6-8932-88D5273A4390}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A52CF227-6862-4978-B28C-0998A7F0F309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A52CF227-6862-4978-B28C-0998A7F0F309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A52CF227-6862-4978-B28C-0998A7F0F309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A52CF227-6862-4978-B28C-0998A7F0F309}.Release|Any CPU.Build.0 = Release|Any CPU
+		{040264DC-3A7D-4203-985B-E66339E309F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{040264DC-3A7D-4203-985B-E66339E309F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{040264DC-3A7D-4203-985B-E66339E309F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{040264DC-3A7D-4203-985B-E66339E309F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF65CD34-7595-4EE4-9D43-8F715E1D789D}
+	EndGlobalSection
+EndGlobal
