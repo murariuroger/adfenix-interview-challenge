@@ -1,5 +1,5 @@
 # Description
-Legacy code was refactored to __Adfenix.MetricsScraper__ console application.
+[Legacy code](https://github.com/murariuroger/adfenix-interview-challenge/blob/master/src/Adfenix.MetricsScraper/LegacyCodeToRefactor.cs) was refactored to __Adfenix.MetricsScraper__ console application.
 Three Web APIs were additionally created to mock the upstream services:
  - ZendeskMock
  - CampaignServerMock
